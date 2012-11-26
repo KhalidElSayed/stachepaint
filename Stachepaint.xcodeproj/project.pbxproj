@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		77E80B9E1663EA7700BDF5F6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77E80B9D1663EA7700BDF5F6 /* UIKit.framework */; };
+		77E80BA01663EA7700BDF5F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77E80B9F1663EA7700BDF5F6 /* Foundation.framework */; };
+		77E80BA21663EA7700BDF5F6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77E80BA11663EA7700BDF5F6 /* CoreGraphics.framework */; };
+		77E80BA41663EA7700BDF5F6 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77E80BA31663EA7700BDF5F6 /* CoreData.framework */; };
+		77E80BAA1663EA7700BDF5F6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 77E80BA81663EA7700BDF5F6 /* InfoPlist.strings */; };
+		77E80BAC1663EA7700BDF5F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E80BAB1663EA7700BDF5F6 /* main.m */; };
+		77E80BB01663EA7700BDF5F6 /* StachepaintAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E80BAF1663EA7700BDF5F6 /* StachepaintAppDelegate.m */; };
+		77E80BB21663EA7700BDF5F6 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E80BB11663EA7700BDF5F6 /* Default.png */; };
+		77E80BB41663EA7700BDF5F6 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E80BB31663EA7700BDF5F6 /* Default@2x.png */; };
+		77E80BB61663EA7700BDF5F6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E80BB51663EA7700BDF5F6 /* Default-568h@2x.png */; };
+		77E80BB91663EA7700BDF5F6 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77E80BB71663EA7700BDF5F6 /* MainStoryboard.storyboard */; };
+		77E80BBC1663EA7700BDF5F6 /* Stachepaint.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 77E80BBA1663EA7700BDF5F6 /* Stachepaint.xcdatamodeld */; };
+		77E80BBF1663EA7700BDF5F6 /* StachepaintMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E80BBE1663EA7700BDF5F6 /* StachepaintMasterViewController.m */; };
+		77E80BC21663EA7700BDF5F6 /* StachepaintDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E80BC11663EA7700BDF5F6 /* StachepaintDetailViewController.m */; };
+		77E80BCA1663EA7700BDF5F6 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77E80BC91663EA7700BDF5F6 /* SenTestingKit.framework */; };
+		77E80BCB1663EA7700BDF5F6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77E80B9D1663EA7700BDF5F6 /* UIKit.framework */; };
+		77E80BCC1663EA7700BDF5F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77E80B9F1663EA7700BDF5F6 /* Foundation.framework */; };
+		77E80BCD1663EA7700BDF5F6 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77E80BA31663EA7700BDF5F6 /* CoreData.framework */; };
+		77E80BD51663EA7700BDF5F6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 77E80BD31663EA7700BDF5F6 /* InfoPlist.strings */; };
+		77E80BD81663EA7700BDF5F6 /* StachepaintTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E80BD71663EA7700BDF5F6 /* StachepaintTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		77E80BCE1663EA7700BDF5F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77E80B901663EA7700BDF5F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77E80B981663EA7700BDF5F6;
+			remoteInfo = Stachepaint;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		77E80B991663EA7700BDF5F6 /* Stachepaint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stachepaint.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		77E80B9D1663EA7700BDF5F6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		77E80B9F1663EA7700BDF5F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		77E80BA11663EA7700BDF5F6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		77E80BA31663EA7700BDF5F6 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		77E80BA71663EA7700BDF5F6 /* Stachepaint-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Stachepaint-Info.plist"; sourceTree = "<group>"; };
+		77E80BA91663EA7700BDF5F6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		77E80BAB1663EA7700BDF5F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		77E80BAD1663EA7700BDF5F6 /* Stachepaint-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Stachepaint-Prefix.pch"; sourceTree = "<group>"; };
+		77E80BAE1663EA7700BDF5F6 /* StachepaintAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StachepaintAppDelegate.h; sourceTree = "<group>"; };
+		77E80BAF1663EA7700BDF5F6 /* StachepaintAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StachepaintAppDelegate.m; sourceTree = "<group>"; };
+		77E80BB11663EA7700BDF5F6 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		77E80BB31663EA7700BDF5F6 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		77E80BB51663EA7700BDF5F6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		77E80BB81663EA7700BDF5F6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		77E80BBB1663EA7700BDF5F6 /* Stachepaint.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Stachepaint.xcdatamodel; sourceTree = "<group>"; };
+		77E80BBD1663EA7700BDF5F6 /* StachepaintMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StachepaintMasterViewController.h; sourceTree = "<group>"; };
+		77E80BBE1663EA7700BDF5F6 /* StachepaintMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StachepaintMasterViewController.m; sourceTree = "<group>"; };
+		77E80BC01663EA7700BDF5F6 /* StachepaintDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StachepaintDetailViewController.h; sourceTree = "<group>"; };
+		77E80BC11663EA7700BDF5F6 /* StachepaintDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StachepaintDetailViewController.m; sourceTree = "<group>"; };
+		77E80BC81663EA7700BDF5F6 /* StachepaintTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StachepaintTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		77E80BC91663EA7700BDF5F6 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		77E80BD21663EA7700BDF5F6 /* StachepaintTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StachepaintTests-Info.plist"; sourceTree = "<group>"; };
+		77E80BD41663EA7700BDF5F6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		77E80BD61663EA7700BDF5F6 /* StachepaintTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StachepaintTests.h; sourceTree = "<group>"; };
+		77E80BD71663EA7700BDF5F6 /* StachepaintTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StachepaintTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77E80B961663EA7700BDF5F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77E80B9E1663EA7700BDF5F6 /* UIKit.framework in Frameworks */,
+				77E80BA01663EA7700BDF5F6 /* Foundation.framework in Frameworks */,
+				77E80BA21663EA7700BDF5F6 /* CoreGraphics.framework in Frameworks */,
+				77E80BA41663EA7700BDF5F6 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77E80BC41663EA7700BDF5F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77E80BCA1663EA7700BDF5F6 /* SenTestingKit.framework in Frameworks */,
+				77E80BCB1663EA7700BDF5F6 /* UIKit.framework in Frameworks */,
+				77E80BCC1663EA7700BDF5F6 /* Foundation.framework in Frameworks */,
+				77E80BCD1663EA7700BDF5F6 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		77E80B8E1663EA7700BDF5F6 = {
+			isa = PBXGroup;
+			children = (
+				77E80BA51663EA7700BDF5F6 /* Stachepaint */,
+				77E80BD01663EA7700BDF5F6 /* StachepaintTests */,
+				77E80B9C1663EA7700BDF5F6 /* Frameworks */,
+				77E80B9A1663EA7700BDF5F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		77E80B9A1663EA7700BDF5F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77E80B991663EA7700BDF5F6 /* Stachepaint.app */,
+				77E80BC81663EA7700BDF5F6 /* StachepaintTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		77E80B9C1663EA7700BDF5F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77E80B9D1663EA7700BDF5F6 /* UIKit.framework */,
+				77E80B9F1663EA7700BDF5F6 /* Foundation.framework */,
+				77E80BA11663EA7700BDF5F6 /* CoreGraphics.framework */,
+				77E80BA31663EA7700BDF5F6 /* CoreData.framework */,
+				77E80BC91663EA7700BDF5F6 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		77E80BA51663EA7700BDF5F6 /* Stachepaint */ = {
+			isa = PBXGroup;
+			children = (
+				77E80BAE1663EA7700BDF5F6 /* StachepaintAppDelegate.h */,
+				77E80BAF1663EA7700BDF5F6 /* StachepaintAppDelegate.m */,
+				77E80BB71663EA7700BDF5F6 /* MainStoryboard.storyboard */,
+				77E80BBD1663EA7700BDF5F6 /* StachepaintMasterViewController.h */,
+				77E80BBE1663EA7700BDF5F6 /* StachepaintMasterViewController.m */,
+				77E80BC01663EA7700BDF5F6 /* StachepaintDetailViewController.h */,
+				77E80BC11663EA7700BDF5F6 /* StachepaintDetailViewController.m */,
+				77E80BBA1663EA7700BDF5F6 /* Stachepaint.xcdatamodeld */,
+				77E80BA61663EA7700BDF5F6 /* Supporting Files */,
+			);
+			path = Stachepaint;
+			sourceTree = "<group>";
+		};
+		77E80BA61663EA7700BDF5F6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				77E80BA71663EA7700BDF5F6 /* Stachepaint-Info.plist */,
+				77E80BA81663EA7700BDF5F6 /* InfoPlist.strings */,
+				77E80BAB1663EA7700BDF5F6 /* main.m */,
+				77E80BAD1663EA7700BDF5F6 /* Stachepaint-Prefix.pch */,
+				77E80BB11663EA7700BDF5F6 /* Default.png */,
+				77E80BB31663EA7700BDF5F6 /* Default@2x.png */,
+				77E80BB51663EA7700BDF5F6 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		77E80BD01663EA7700BDF5F6 /* StachepaintTests */ = {
+			isa = PBXGroup;
+			children = (
+				77E80BD61663EA7700BDF5F6 /* StachepaintTests.h */,
+				77E80BD71663EA7700BDF5F6 /* StachepaintTests.m */,
+				77E80BD11663EA7700BDF5F6 /* Supporting Files */,
+			);
+			path = StachepaintTests;
+			sourceTree = "<group>";
+		};
+		77E80BD11663EA7700BDF5F6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				77E80BD21663EA7700BDF5F6 /* StachepaintTests-Info.plist */,
+				77E80BD31663EA7700BDF5F6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		77E80B981663EA7700BDF5F6 /* Stachepaint */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77E80BDB1663EA7700BDF5F6 /* Build configuration list for PBXNativeTarget "Stachepaint" */;
+			buildPhases = (
+				77E80B951663EA7700BDF5F6 /* Sources */,
+				77E80B961663EA7700BDF5F6 /* Frameworks */,
+				77E80B971663EA7700BDF5F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Stachepaint;
+			productName = Stachepaint;
+			productReference = 77E80B991663EA7700BDF5F6 /* Stachepaint.app */;
+			productType = "com.apple.product-type.application";
+		};
+		77E80BC71663EA7700BDF5F6 /* StachepaintTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77E80BDE1663EA7700BDF5F6 /* Build configuration list for PBXNativeTarget "StachepaintTests" */;
+			buildPhases = (
+				77E80BC31663EA7700BDF5F6 /* Sources */,
+				77E80BC41663EA7700BDF5F6 /* Frameworks */,
+				77E80BC51663EA7700BDF5F6 /* Resources */,
+				77E80BC61663EA7700BDF5F6 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77E80BCF1663EA7700BDF5F6 /* PBXTargetDependency */,
+			);
+			name = StachepaintTests;
+			productName = StachepaintTests;
+			productReference = 77E80BC81663EA7700BDF5F6 /* StachepaintTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		77E80B901663EA7700BDF5F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Stachepaint;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Enrique;
+			};
+			buildConfigurationList = 77E80B931663EA7700BDF5F6 /* Build configuration list for PBXProject "Stachepaint" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 77E80B8E1663EA7700BDF5F6;
+			productRefGroup = 77E80B9A1663EA7700BDF5F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				77E80B981663EA7700BDF5F6 /* Stachepaint */,
+				77E80BC71663EA7700BDF5F6 /* StachepaintTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		77E80B971663EA7700BDF5F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77E80BAA1663EA7700BDF5F6 /* InfoPlist.strings in Resources */,
+				77E80BB21663EA7700BDF5F6 /* Default.png in Resources */,
+				77E80BB41663EA7700BDF5F6 /* Default@2x.png in Resources */,
+				77E80BB61663EA7700BDF5F6 /* Default-568h@2x.png in Resources */,
+				77E80BB91663EA7700BDF5F6 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77E80BC51663EA7700BDF5F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77E80BD51663EA7700BDF5F6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		77E80BC61663EA7700BDF5F6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77E80B951663EA7700BDF5F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77E80BAC1663EA7700BDF5F6 /* main.m in Sources */,
+				77E80BB01663EA7700BDF5F6 /* StachepaintAppDelegate.m in Sources */,
+				77E80BBC1663EA7700BDF5F6 /* Stachepaint.xcdatamodeld in Sources */,
+				77E80BBF1663EA7700BDF5F6 /* StachepaintMasterViewController.m in Sources */,
+				77E80BC21663EA7700BDF5F6 /* StachepaintDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77E80BC31663EA7700BDF5F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77E80BD81663EA7700BDF5F6 /* StachepaintTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		77E80BCF1663EA7700BDF5F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77E80B981663EA7700BDF5F6 /* Stachepaint */;
+			targetProxy = 77E80BCE1663EA7700BDF5F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		77E80BA81663EA7700BDF5F6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77E80BA91663EA7700BDF5F6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		77E80BB71663EA7700BDF5F6 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77E80BB81663EA7700BDF5F6 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		77E80BD31663EA7700BDF5F6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77E80BD41663EA7700BDF5F6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		77E80BD91663EA7700BDF5F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		77E80BDA1663EA7700BDF5F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		77E80BDC1663EA7700BDF5F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Stachepaint/Stachepaint-Prefix.pch";
+				INFOPLIST_FILE = "Stachepaint/Stachepaint-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		77E80BDD1663EA7700BDF5F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Stachepaint/Stachepaint-Prefix.pch";
+				INFOPLIST_FILE = "Stachepaint/Stachepaint-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		77E80BDF1663EA7700BDF5F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Stachepaint.app/Stachepaint";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Stachepaint/Stachepaint-Prefix.pch";
+				INFOPLIST_FILE = "StachepaintTests/StachepaintTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		77E80BE01663EA7700BDF5F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Stachepaint.app/Stachepaint";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Stachepaint/Stachepaint-Prefix.pch";
+				INFOPLIST_FILE = "StachepaintTests/StachepaintTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		77E80B931663EA7700BDF5F6 /* Build configuration list for PBXProject "Stachepaint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77E80BD91663EA7700BDF5F6 /* Debug */,
+				77E80BDA1663EA7700BDF5F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77E80BDB1663EA7700BDF5F6 /* Build configuration list for PBXNativeTarget "Stachepaint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77E80BDC1663EA7700BDF5F6 /* Debug */,
+				77E80BDD1663EA7700BDF5F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		77E80BDE1663EA7700BDF5F6 /* Build configuration list for PBXNativeTarget "StachepaintTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77E80BDF1663EA7700BDF5F6 /* Debug */,
+				77E80BE01663EA7700BDF5F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		77E80BBA1663EA7700BDF5F6 /* Stachepaint.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				77E80BBB1663EA7700BDF5F6 /* Stachepaint.xcdatamodel */,
+			);
+			currentVersion = 77E80BBB1663EA7700BDF5F6 /* Stachepaint.xcdatamodel */;
+			path = Stachepaint.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 77E80B901663EA7700BDF5F6 /* Project object */;
+}
