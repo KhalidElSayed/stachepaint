@@ -7,6 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		773453E11666A52300DBA384 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 773453D31666A52300DBA384 /* 1.png */; };
+		773453E21666A52300DBA384 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 773453D41666A52300DBA384 /* 2.png */; };
+		773453E31666A52300DBA384 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 773453D51666A52300DBA384 /* 3.png */; };
+		773453E41666A52300DBA384 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 773453D61666A52300DBA384 /* background.png */; };
+		773453E51666A52300DBA384 /* banner.png in Resources */ = {isa = PBXBuildFile; fileRef = 773453D71666A52300DBA384 /* banner.png */; };
+		773453E61666A52300DBA384 /* cameo.png in Resources */ = {isa = PBXBuildFile; fileRef = 773453D81666A52300DBA384 /* cameo.png */; };
+		773453E71666A52300DBA384 /* camera_onhighlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 773453D91666A52300DBA384 /* camera_onhighlight.png */; };
+		773453E81666A52300DBA384 /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 773453DA1666A52300DBA384 /* camera.png */; };
+		773453E91666A52300DBA384 /* facebook_onhighlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 773453DB1666A52300DBA384 /* facebook_onhighlight.png */; };
+		773453EA1666A52300DBA384 /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 773453DC1666A52300DBA384 /* facebook.png */; };
+		773453EB1666A52300DBA384 /* house_onhighlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 773453DD1666A52300DBA384 /* house_onhighlight.png */; };
+		773453EC1666A52300DBA384 /* house.png in Resources */ = {isa = PBXBuildFile; fileRef = 773453DE1666A52300DBA384 /* house.png */; };
+		773453ED1666A52300DBA384 /* stache_onhighlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 773453DF1666A52300DBA384 /* stache_onhighlight.png */; };
+		773453EE1666A52300DBA384 /* stache.png in Resources */ = {isa = PBXBuildFile; fileRef = 773453E01666A52300DBA384 /* stache.png */; };
+		773453F41666A7DA00DBA384 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 773453F31666A7DA00DBA384 /* HomeViewController.m */; };
+		773453F71666B13D00DBA384 /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 773453F61666B13D00DBA384 /* CameraViewController.m */; };
+		773453FA1666B15500DBA384 /* StacheViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 773453F91666B15500DBA384 /* StacheViewController.m */; };
+		773453FD1666B18000DBA384 /* FacebookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 773453FC1666B18000DBA384 /* FacebookViewController.m */; };
+		773454001666B69A00DBA384 /* TabBarControllerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 773453FF1666B69A00DBA384 /* TabBarControllerView.m */; };
 		77E80B9E1663EA7700BDF5F6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77E80B9D1663EA7700BDF5F6 /* UIKit.framework */; };
 		77E80BA01663EA7700BDF5F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77E80B9F1663EA7700BDF5F6 /* Foundation.framework */; };
 		77E80BA21663EA7700BDF5F6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77E80BA11663EA7700BDF5F6 /* CoreGraphics.framework */; };
@@ -38,6 +57,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		773453D31666A52300DBA384 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		773453D41666A52300DBA384 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		773453D51666A52300DBA384 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		773453D61666A52300DBA384 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		773453D71666A52300DBA384 /* banner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = banner.png; sourceTree = "<group>"; };
+		773453D81666A52300DBA384 /* cameo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cameo.png; sourceTree = "<group>"; };
+		773453D91666A52300DBA384 /* camera_onhighlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera_onhighlight.png; sourceTree = "<group>"; };
+		773453DA1666A52300DBA384 /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera.png; sourceTree = "<group>"; };
+		773453DB1666A52300DBA384 /* facebook_onhighlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook_onhighlight.png; sourceTree = "<group>"; };
+		773453DC1666A52300DBA384 /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook.png; sourceTree = "<group>"; };
+		773453DD1666A52300DBA384 /* house_onhighlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = house_onhighlight.png; sourceTree = "<group>"; };
+		773453DE1666A52300DBA384 /* house.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = house.png; sourceTree = "<group>"; };
+		773453DF1666A52300DBA384 /* stache_onhighlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stache_onhighlight.png; sourceTree = "<group>"; };
+		773453E01666A52300DBA384 /* stache.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stache.png; sourceTree = "<group>"; };
+		773453F21666A7DA00DBA384 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		773453F31666A7DA00DBA384 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		773453F51666B13D00DBA384 /* CameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CameraViewController.h; path = ../CameraViewController.h; sourceTree = "<group>"; };
+		773453F61666B13D00DBA384 /* CameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CameraViewController.m; path = ../CameraViewController.m; sourceTree = "<group>"; };
+		773453F81666B15500DBA384 /* StacheViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StacheViewController.h; sourceTree = "<group>"; };
+		773453F91666B15500DBA384 /* StacheViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StacheViewController.m; sourceTree = "<group>"; };
+		773453FB1666B18000DBA384 /* FacebookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacebookViewController.h; sourceTree = "<group>"; };
+		773453FC1666B18000DBA384 /* FacebookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FacebookViewController.m; sourceTree = "<group>"; };
+		773453FE1666B69A00DBA384 /* TabBarControllerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarControllerView.h; sourceTree = "<group>"; };
+		773453FF1666B69A00DBA384 /* TabBarControllerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarControllerView.m; sourceTree = "<group>"; };
 		77E80B991663EA7700BDF5F6 /* Stachepaint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stachepaint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77E80B9D1663EA7700BDF5F6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		77E80B9F1663EA7700BDF5F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -88,6 +131,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		773453D11666A3D600DBA384 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				773453D31666A52300DBA384 /* 1.png */,
+				773453D41666A52300DBA384 /* 2.png */,
+				773453D51666A52300DBA384 /* 3.png */,
+				773453D61666A52300DBA384 /* background.png */,
+				773453D71666A52300DBA384 /* banner.png */,
+				773453D81666A52300DBA384 /* cameo.png */,
+				773453D91666A52300DBA384 /* camera_onhighlight.png */,
+				773453DA1666A52300DBA384 /* camera.png */,
+				773453DB1666A52300DBA384 /* facebook_onhighlight.png */,
+				773453DC1666A52300DBA384 /* facebook.png */,
+				773453DD1666A52300DBA384 /* house_onhighlight.png */,
+				773453DE1666A52300DBA384 /* house.png */,
+				773453DF1666A52300DBA384 /* stache_onhighlight.png */,
+				773453E01666A52300DBA384 /* stache.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		77E80B8E1663EA7700BDF5F6 = {
 			isa = PBXGroup;
 			children = (
@@ -122,11 +186,22 @@
 		77E80BA51663EA7700BDF5F6 /* Stachepaint */ = {
 			isa = PBXGroup;
 			children = (
+				773453D11666A3D600DBA384 /* Resources */,
 				77E80BAE1663EA7700BDF5F6 /* StachepaintAppDelegate.h */,
 				77E80BAF1663EA7700BDF5F6 /* StachepaintAppDelegate.m */,
 				77E80BB71663EA7700BDF5F6 /* MainStoryboard.storyboard */,
 				77E80BBA1663EA7700BDF5F6 /* Stachepaint.xcdatamodeld */,
 				77E80BA61663EA7700BDF5F6 /* Supporting Files */,
+				773453F21666A7DA00DBA384 /* HomeViewController.h */,
+				773453F31666A7DA00DBA384 /* HomeViewController.m */,
+				773453FB1666B18000DBA384 /* FacebookViewController.h */,
+				773453FC1666B18000DBA384 /* FacebookViewController.m */,
+				773453F81666B15500DBA384 /* StacheViewController.h */,
+				773453F91666B15500DBA384 /* StacheViewController.m */,
+				773453F51666B13D00DBA384 /* CameraViewController.h */,
+				773453F61666B13D00DBA384 /* CameraViewController.m */,
+				773453FE1666B69A00DBA384 /* TabBarControllerView.h */,
+				773453FF1666B69A00DBA384 /* TabBarControllerView.m */,
 			);
 			path = Stachepaint;
 			sourceTree = "<group>";
@@ -241,6 +316,20 @@
 				77E80BB41663EA7700BDF5F6 /* Default@2x.png in Resources */,
 				77E80BB61663EA7700BDF5F6 /* Default-568h@2x.png in Resources */,
 				77E80BB91663EA7700BDF5F6 /* MainStoryboard.storyboard in Resources */,
+				773453E11666A52300DBA384 /* 1.png in Resources */,
+				773453E21666A52300DBA384 /* 2.png in Resources */,
+				773453E31666A52300DBA384 /* 3.png in Resources */,
+				773453E41666A52300DBA384 /* background.png in Resources */,
+				773453E51666A52300DBA384 /* banner.png in Resources */,
+				773453E61666A52300DBA384 /* cameo.png in Resources */,
+				773453E71666A52300DBA384 /* camera_onhighlight.png in Resources */,
+				773453E81666A52300DBA384 /* camera.png in Resources */,
+				773453E91666A52300DBA384 /* facebook_onhighlight.png in Resources */,
+				773453EA1666A52300DBA384 /* facebook.png in Resources */,
+				773453EB1666A52300DBA384 /* house_onhighlight.png in Resources */,
+				773453EC1666A52300DBA384 /* house.png in Resources */,
+				773453ED1666A52300DBA384 /* stache_onhighlight.png in Resources */,
+				773453EE1666A52300DBA384 /* stache.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +367,11 @@
 				77E80BAC1663EA7700BDF5F6 /* main.m in Sources */,
 				77E80BB01663EA7700BDF5F6 /* StachepaintAppDelegate.m in Sources */,
 				77E80BBC1663EA7700BDF5F6 /* Stachepaint.xcdatamodeld in Sources */,
+				773453F41666A7DA00DBA384 /* HomeViewController.m in Sources */,
+				773453F71666B13D00DBA384 /* CameraViewController.m in Sources */,
+				773453FA1666B15500DBA384 /* StacheViewController.m in Sources */,
+				773453FD1666B18000DBA384 /* FacebookViewController.m in Sources */,
+				773454001666B69A00DBA384 /* TabBarControllerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -4,79 +4,92 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1930"/>
     </dependencies>
     <scenes>
-        <!--View Controller - Item 3 Scene-->
+        <!--Stache View Controller - HomeViewController-->
         <scene sceneID="IFE-Ez-zIy">
             <objects>
-                <viewController title="Item 3 Scene" id="zSZ-fl-9j7" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="XIk-Gf-OZv">
+                <viewController storyboardIdentifier="StacheViewController" title="HomeViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="zSZ-fl-9j7" customClass="StacheViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" restorationIdentifier="StacheViewController" id="XIk-Gf-OZv">
                         <rect key="frame" x="0.0" y="20" width="320" height="499"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="JJX-Za-vnj"/>
+                    <tabBarItem key="tabBarItem" title="" image="stache.png" id="JJX-Za-vnj"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8X4-E4-lDQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="75" y="-1002"/>
+            <point key="canvasLocation" x="-123" y="870"/>
         </scene>
-        <!--View Controller - Item 2-->
+        <!--Facebook View Controller - CameraViewController-->
         <scene sceneID="YTq-20-iMB">
             <objects>
-                <viewController id="5SN-Yd-Odm" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="d95-Dg-6gD">
+                <viewController storyboardIdentifier="CameraViewController" title="CameraViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="5SN-Yd-Odm" customClass="FacebookViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" restorationIdentifier="CameraViewController" id="d95-Dg-6gD">
                         <rect key="frame" x="0.0" y="20" width="320" height="499"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="Yvz-VD-u2G"/>
+                    <tabBarItem key="tabBarItem" title="" image="camera.png" id="Yvz-VD-u2G"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="X5F-ie-vap" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="75" y="-179"/>
+            <point key="canvasLocation" x="-123" y="109"/>
         </scene>
-        <!--View Controller - Item 4 Scene-->
+        <!--Camera View Controller - FacebookViewController-->
         <scene sceneID="xbo-CL-QsC">
             <objects>
-                <viewController title="Item 4 Scene" id="wmr-lO-OLd" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="i7h-wl-V7Z">
+                <viewController storyboardIdentifier="FacebookViewController" title="FacebookViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="wmr-lO-OLd" customClass="CameraViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" restorationIdentifier="FacebookViewController" id="i7h-wl-V7Z">
                         <rect key="frame" x="0.0" y="20" width="320" height="499"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="mVr-VZ-yX0"/>
+                    <tabBarItem key="tabBarItem" title="" image="facebook.png" id="mVr-VZ-yX0"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Lrf-5f-R2A" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="113" y="1213"/>
+            <point key="canvasLocation" x="-111" y="1545"/>
         </scene>
-        <!--View Controller - Item 1-->
+        <!--Home View Controller - HomeViewController-->
         <scene sceneID="cpH-Fe-1Cd">
             <objects>
-                <viewController id="dZS-iK-Ek7" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="hnQ-P8-aiW">
+                <viewController storyboardIdentifier="HouseViewController" title="HomeViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="dZS-iK-Ek7" customClass="HomeViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" restorationIdentifier="HomeViewController" id="hnQ-P8-aiW">
                         <rect key="frame" x="0.0" y="20" width="320" height="499"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="banner.png" translatesAutoresizingMaskIntoConstraints="NO" id="KPW-ca-UCc">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="86" id="PDW-lL-aYh"/>
+                                    <constraint firstAttribute="width" constant="238" id="yX7-x8-8rk"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="KPW-ca-UCc" firstAttribute="centerX" secondItem="hnQ-P8-aiW" secondAttribute="centerX" type="default" id="4N4-u8-Ta1"/>
+                            <constraint firstItem="KPW-ca-UCc" firstAttribute="top" secondItem="hnQ-P8-aiW" secondAttribute="top" constant="72" id="caf-2q-4Hc"/>
+                        </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="2Eq-Iy-w6P"/>
+                    <tabBarItem key="tabBarItem" title="" image="house.png" id="2Eq-Iy-w6P"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9rm-8R-XTL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="105" y="525"/>
+            <point key="canvasLocation" x="-123" y="-595"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Tab Bar Controller View - TabBarControllerView-->
         <scene sceneID="yNI-VO-Aaw">
             <objects>
-                <tabBarController definesPresentationContext="YES" id="Eun-MO-edp" sceneMemberID="viewController">
-                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                <tabBarController storyboardIdentifier="TabBarControllerView" title="TabBarControllerView" definesPresentationContext="YES" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Eun-MO-edp" customClass="TabBarControllerView" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="m49-9s-9MA">
                         <rect key="frame" x="129" y="330" width="163" height="49"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
+                        <outlet property="tabBar" destination="m49-9s-9MA" id="0Na-3q-Fma"/>
                         <segue destination="dZS-iK-Ek7" kind="relationship" relationship="viewControllers" id="fDt-T4-N2b"/>
                         <segue destination="5SN-Yd-Odm" kind="relationship" relationship="viewControllers" id="r8F-xU-Axj"/>
                         <segue destination="zSZ-fl-9j7" kind="relationship" relationship="viewControllers" id="dlb-sy-zED"/>
@@ -84,10 +97,45 @@
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Nlv-A6-SBl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <view contentMode="scaleToFill" id="2le-Gv-7xt">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="460"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                </view>
             </objects>
-            <point key="canvasLocation" x="-428" y="51"/>
+            <point key="canvasLocation" x="-925" y="503"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="banner.png" width="242" height="76"/>
+        <image name="camera.png" width="28" height="28"/>
+        <image name="facebook.png" width="28" height="38"/>
+        <image name="house.png" width="28" height="28"/>
+        <image name="stache.png" width="38" height="28"/>
+    </resources>
+    <classes>
+        <class className="CameraViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/CameraViewController.h"/>
+        </class>
+        <class className="FacebookViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/FacebookViewController.h"/>
+        </class>
+        <class className="HomeViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/HomeViewController.h"/>
+        </class>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="StacheViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/StacheViewController.h"/>
+        </class>
+        <class className="TabBarControllerView" superclassName="UITabBarController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/TabBarControllerView.h"/>
+            <relationships>
+                <relationship kind="outlet" name="tabBar" candidateClass="UITabBar"/>
+            </relationships>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
