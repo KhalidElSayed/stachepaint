@@ -20,25 +20,55 @@
             </objects>
             <point key="canvasLocation" x="-123" y="870"/>
         </scene>
-        <!--Facebook View Controller - CameraViewController-->
+        <!--Camera View Controller - CameraViewController-->
         <scene sceneID="YTq-20-iMB">
             <objects>
-                <viewController storyboardIdentifier="CameraViewController" title="CameraViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="5SN-Yd-Odm" customClass="FacebookViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CameraViewController" title="CameraViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="5SN-Yd-Odm" customClass="CameraViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" restorationIdentifier="CameraViewController" id="d95-Dg-6gD">
                         <rect key="frame" x="0.0" y="20" width="320" height="499"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="1.png" translatesAutoresizingMaskIntoConstraints="NO" id="VFp-zI-dk7">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="90" id="Lvu-yZ-gwj"/>
+                                    <constraint firstAttribute="height" constant="59" id="hRv-iz-Tac"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Snap a photo" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Da8-XO-dMX">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="23" id="z2f-WF-5q7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Photograph your subject" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="voV-ke-DY1">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.12549020349979401" green="0.12941177189350128" blue="0.13333334028720856" alpha="1" colorSpace="deviceRGB"/>
+                        <constraints>
+                            <constraint firstItem="Da8-XO-dMX" firstAttribute="leading" secondItem="d95-Dg-6gD" secondAttribute="leading" constant="158" id="95z-QQ-1xq"/>
+                            <constraint firstItem="voV-ke-DY1" firstAttribute="top" secondItem="d95-Dg-6gD" secondAttribute="top" constant="64" id="CtA-kk-c1L"/>
+                            <constraint firstItem="VFp-zI-dk7" firstAttribute="top" secondItem="d95-Dg-6gD" secondAttribute="top" constant="7" id="HXl-u8-VW2"/>
+                            <constraint firstItem="Da8-XO-dMX" firstAttribute="centerY" secondItem="VFp-zI-dk7" secondAttribute="centerY" type="default" id="SmR-J5-HMb"/>
+                            <constraint firstItem="VFp-zI-dk7" firstAttribute="leading" secondItem="d95-Dg-6gD" secondAttribute="leading" constant="43" id="XUR-P5-vqZ"/>
+                            <constraint firstAttribute="trailing" secondItem="voV-ke-DY1" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="y9F-Za-K9m"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="camera.png" id="Yvz-VD-u2G"/>
+                    <navigationItem key="navigationItem" id="rFB-db-o96"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="X5F-ie-vap" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-123" y="109"/>
         </scene>
-        <!--Camera View Controller - FacebookViewController-->
+        <!--Facebook View Controller - FacebookViewController-->
         <scene sceneID="xbo-CL-QsC">
             <objects>
-                <viewController storyboardIdentifier="FacebookViewController" title="FacebookViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="wmr-lO-OLd" customClass="CameraViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="FacebookViewController" title="FacebookViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="wmr-lO-OLd" customClass="FacebookViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" restorationIdentifier="FacebookViewController" id="i7h-wl-V7Z">
                         <rect key="frame" x="0.0" y="20" width="320" height="499"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -65,18 +95,41 @@
                                     <constraint firstAttribute="width" constant="238" id="yX7-x8-8rk"/>
                                 </constraints>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="cameo.png" translatesAutoresizingMaskIntoConstraints="NO" id="Vkx-ZQ-HEo">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="94" id="8Wu-ag-qeO"/>
+                                    <constraint firstAttribute="height" constant="133" id="SBA-F3-DXf"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bCF-Yi-toz">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonClicked:" destination="dZS-iK-Ek7" eventType="touchDown" id="M8P-dG-23H"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="KPW-ca-UCc" firstAttribute="centerX" secondItem="hnQ-P8-aiW" secondAttribute="centerX" type="default" id="4N4-u8-Ta1"/>
+                            <constraint firstItem="Vkx-ZQ-HEo" firstAttribute="centerX" secondItem="KPW-ca-UCc" secondAttribute="centerX" type="default" id="6gf-x5-Tnc"/>
+                            <constraint firstItem="Vkx-ZQ-HEo" firstAttribute="top" secondItem="hnQ-P8-aiW" secondAttribute="top" constant="127" id="EDh-gx-vga"/>
+                            <constraint firstAttribute="bottom" secondItem="bCF-Yi-toz" secondAttribute="bottom" constant="91" id="aEr-5x-QFS"/>
                             <constraint firstItem="KPW-ca-UCc" firstAttribute="top" secondItem="hnQ-P8-aiW" secondAttribute="top" constant="72" id="caf-2q-4Hc"/>
+                            <constraint firstItem="bCF-Yi-toz" firstAttribute="centerX" secondItem="Vkx-ZQ-HEo" secondAttribute="centerX" type="default" id="fGC-Lf-2fc"/>
+                            <constraint firstItem="bCF-Yi-toz" firstAttribute="centerX" secondItem="hnQ-P8-aiW" secondAttribute="centerX" type="default" id="vnz-sQ-5fv"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="house.png" id="2Eq-Iy-w6P"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9rm-8R-XTL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-123" y="-595"/>
+            <point key="canvasLocation" x="-101" y="-595"/>
         </scene>
         <!--Tab Bar Controller View - TabBarControllerView-->
         <scene sceneID="yNI-VO-Aaw">
@@ -107,7 +160,9 @@
         </scene>
     </scenes>
     <resources>
+        <image name="1.png" width="78" height="50"/>
         <image name="banner.png" width="242" height="76"/>
+        <image name="cameo.png" width="100" height="134"/>
         <image name="camera.png" width="28" height="28"/>
         <image name="facebook.png" width="28" height="38"/>
         <image name="house.png" width="28" height="28"/>
@@ -122,6 +177,9 @@
         </class>
         <class className="HomeViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/HomeViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="buttonClicked:"/>
+            </relationships>
         </class>
         <class className="NSLayoutConstraint" superclassName="NSObject">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>

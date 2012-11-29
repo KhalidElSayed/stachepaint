@@ -16,14 +16,8 @@
 {
     [super viewDidLoad];
 	
-    NSLog(@"viewDidLoad");
+    NSLog(@"viewDidLoadStache");
     
-    UIGraphicsBeginImageContext(self.view.frame.size);
-    [[UIImage imageNamed:@"background.png"] drawInRect:self.view.bounds];
-    UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
-    UIGraphicsEndImageContext();
-    
-    self.view.backgroundColor = [UIColor colorWithPatternImage:image];
-}
+   }
 
 @end
